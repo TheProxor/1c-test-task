@@ -64,5 +64,11 @@ cells = [
 
 ## Тесты
 
+
 Пример 1 из задания:
 ![Ex1](/Images/Ex1.png)
+Format: ![Alt Text](url)
+
+Пример 2 из задания:
+![Ex1](/Images/Ex2.png)
+Format: ![Alt Text](url)
