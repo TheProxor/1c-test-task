@@ -32,6 +32,7 @@ namespace CoinPathFinder
 
 
         #region Methods
+
         public static void Initialize(int[,] inputCells,
                                       float _heuristicMultiplayer = 0.5f,
                                       HeuristicFunction _heuristicFunction = HeuristicFunction.ClassicDistance,
