@@ -147,7 +147,7 @@ namespace CoinPathFinder
                 closedSet.Add(currentNode);
                 openSet.Remove(currentNode);
 
-                currentNode = FindMinWeight();
+                currentNode = FindNodeWithMinWeight();
             }
 
             return false;
@@ -184,7 +184,7 @@ namespace CoinPathFinder
         }
 
 
-        private static Node FindMinWeight()
+        private static Node FindNodeWithMinWeight()
         {
             Node minNode = null;
 
